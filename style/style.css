@@ -5,3 +5,46 @@
     margin: 0;
     padding: 0;
 }
+
+/* generics */
+body{
+    font-family: "roboto", sans-serif;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: #3581d0;
+}
+
+/* header */
+.albums-header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 125px;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 10px;
+}
+
+.albums-header-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.albums-header-right{
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    padding-bottom: 30px;
+}
+
+#add-pictures{
+    font-size: 2rem;
+}
